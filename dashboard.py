@@ -1,0 +1,15 @@
+def dashboard():
+    print("\n")
+    print("=================================")
+    print("     LIBRARY MANAGEMENT SYSTEM")
+    print("=================================")
+    print("1. Add Book")
+    print("2. View Books")
+    print("3. Add Member")
+    print("4. View Members")
+    print("5. Issue Book")
+    print("6. Return Book")
+    print("7. Reports")
+    print("8. Exit")
+    choice = input("\nEnter your choice: ")
+    return choice
